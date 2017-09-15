@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+        "scope": null,
+        "escapedName": "nodebb-plugin-featured-topics-extended-with-title",
+        "name": "nodebb-plugin-featured-topics-extended-with-title",
+        "rawSpec": "0.3.3",
+        "spec": "0.3.3",
+        "type": "version"
+      },
+      "/home/user/nodebb"
+    ]
+  ],
+  "_from": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+  "_id": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+  "_inCache": true,
+  "_location": "/nodebb-plugin-featured-topics-extended-with-title",
+  "_nodeVersion": "7.10.0",
+  "_npmUser": {
+    "name": "dreadfull",
+    "email": "deathwings9@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+    "scope": null,
+    "escapedName": "nodebb-plugin-featured-topics-extended-with-title",
+    "name": "nodebb-plugin-featured-topics-extended-with-title",
+    "rawSpec": "0.3.3",
+    "spec": "0.3.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shrinkwrap": null,
+  "_spec": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+  "_where": "/home/user/nodebb",
+  "bugs": {
+    "url": "https://github.com/Serhey/nodebb-plugin-featured-topics-extended-with-title/issues"
+  },
+  "dependencies": {
+    "async": "~1.5.0",
+    "nconf": "~0.8.2",
+    "templates.js": "0.3.4",
+    "validator": "^6.1.0",
+    "winston": "^2.1.0"
+  },
+  "description": "Adds a customisable news/blog page and some widgets using featured topics with title.",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "nyc": "^6.4.4",
+    "standard": "^7.1.2"
+  },
+  "directories": {},
+  "homepage": "https://github.com/Serhey/nodebb-plugin-featured-topics-extended-with-title",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "news",
+    "portal",
+    "featured",
+    "topics"
+  ],
+  "license": "(CC0-1.0 OR MIT)",
+  "main": "./lib/plugin.js",
+  "maintainers": [
+    {
+      "name": "dreadfull",
+      "email": "deathwings9@gmail.com"
+    }
+  ],
+  "name": "nodebb-plugin-featured-topics-extended-with-title",
+  "nbbpm": {
+    "compatibility": "^1.5.0"
+  },
+  "nyc": {
+    "exclude": [
+      "nodebb",
+      "test"
+    ]
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serhey/nodebb-plugin-featured-topics-extended-with-title.git"
+  },
+  "scripts": {
+    "compile": "babel src -d .",
+    "test": "npm run compile && npm run test:run && npm run test:report",
+    "test:report": "nyc report --reporter=lcov",
+    "test:run": "nyc --require babel-register mocha test/test.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "version": "0.3.3"
+}
