@@ -40,7 +40,7 @@
             <span class="views">({topics.viewcount} Просмотров / {topics.post.votes} Голосов)</span>
             <span class="comments">
               <div class="new"></div>
-              <a href="{config.relative_path}/topic/{topics.slug}">{topics.replies} Ответов
+              <a href="{config.relative_path}/topic/{topics.slug}">{topics.replies} Replies
                 <i class="fa fa-comment"></i></a>
             </span>
           </div>
