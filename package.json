@@ -2,19 +2,18 @@
   "_args": [
     [
       {
-        "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+        "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
         "scope": null,
         "escapedName": "nodebb-plugin-featured-topics-extended-with-title",
         "name": "nodebb-plugin-featured-topics-extended-with-title",
-        "rawSpec": "0.3.3",
-        "spec": "0.3.3",
+        "rawSpec": "0.3.4",
+        "spec": "0.3.4",
         "type": "version"
       },
       "/home/user/nodebb"
     ]
   ],
-  "_from": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
-  "_id": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+  "_from": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
   "_inCache": true,
   "_location": "/nodebb-plugin-featured-topics-extended-with-title",
   "_nodeVersion": "7.10.0",
@@ -25,19 +24,19 @@
   "_npmVersion": "4.2.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+    "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
     "scope": null,
     "escapedName": "nodebb-plugin-featured-topics-extended-with-title",
     "name": "nodebb-plugin-featured-topics-extended-with-title",
-    "rawSpec": "0.3.3",
-    "spec": "0.3.3",
+    "rawSpec": "0.3.4",
+    "spec": "0.3.4",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
   "_shrinkwrap": null,
-  "_spec": "nodebb-plugin-featured-topics-extended-with-title@0.3.3",
+  "_spec": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
   "_where": "/home/user/nodebb",
   "bugs": {
     "url": "https://github.com/Serhey/nodebb-plugin-featured-topics-extended-with-title/issues"
@@ -75,10 +74,7 @@
   "license": "(CC0-1.0 OR MIT)",
   "main": "./lib/plugin.js",
   "maintainers": [
-    {
-      "name": "dreadfull",
-      "email": "deathwings9@gmail.com"
-    }
+    "dreadfull <deathwings9@gmail.com>"
   ],
   "name": "nodebb-plugin-featured-topics-extended-with-title",
   "nbbpm": {
@@ -91,7 +87,6 @@
     ]
   },
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Serhey/nodebb-plugin-featured-topics-extended-with-title.git"
@@ -105,5 +100,6 @@
   "standard": {
     "parser": "babel-eslint"
   },
-  "version": "0.3.3"
+  "version": "0.3.4",
+  "author": "Dreadfull <deathwings9@gmail.com> (https://dreadhomepage.com)"
 }
