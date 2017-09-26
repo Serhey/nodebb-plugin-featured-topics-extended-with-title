@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
+        "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.5",
         "scope": null,
         "escapedName": "nodebb-plugin-featured-topics-extended-with-title",
         "name": "nodebb-plugin-featured-topics-extended-with-title",
-        "rawSpec": "0.3.4",
-        "spec": "0.3.4",
+        "rawSpec": "0.3.5",
+        "spec": "0.3.5",
         "type": "version"
       },
       "/home/user/nodebb"
     ]
   ],
-  "_from": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
+  "_from": "nodebb-plugin-featured-topics-extended-with-title@0.3.5",
   "_inCache": true,
   "_location": "/nodebb-plugin-featured-topics-extended-with-title",
   "_nodeVersion": "7.10.0",
@@ -24,19 +24,19 @@
   "_npmVersion": "4.2.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
+    "raw": "nodebb-plugin-featured-topics-extended-with-title@0.3.5",
     "scope": null,
     "escapedName": "nodebb-plugin-featured-topics-extended-with-title",
     "name": "nodebb-plugin-featured-topics-extended-with-title",
-    "rawSpec": "0.3.4",
-    "spec": "0.3.4",
+    "rawSpec": "0.3.5",
+    "spec": "0.3.5",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
   "_shrinkwrap": null,
-  "_spec": "nodebb-plugin-featured-topics-extended-with-title@0.3.4",
+  "_spec": "nodebb-plugin-featured-topics-extended-with-title@0.3.5",
   "_where": "/home/user/nodebb",
   "bugs": {
     "url": "https://github.com/Serhey/nodebb-plugin-featured-topics-extended-with-title/issues"
@@ -44,7 +44,7 @@
   "dependencies": {
     "async": "~1.5.0",
     "nconf": "~0.8.2",
-    "templates.js": "0.3.4",
+    "templates.js": "0.3.5",
     "validator": "^6.1.0",
     "winston": "^2.1.0"
   },
@@ -100,6 +100,6 @@
   "standard": {
     "parser": "babel-eslint"
   },
-  "version": "0.3.4",
+  "version": "0.3.5",
   "author": "Dreadfull <deathwings9@gmail.com> (https://dreadhomepage.com)"
 }
