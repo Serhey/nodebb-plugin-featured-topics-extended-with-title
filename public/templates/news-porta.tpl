@@ -37,10 +37,11 @@
               <a href="<!-- IF topics.user.userslug -->{config.relative_path}/user/{topics.user.userslug}<!-- ELSE -->#<!-- ENDIF topics.user.userslug -->" itemprop="author" data-username="{topics.user.username}" data-uid="{topics.user.uid}">{topics.user.username}</a>
             </strong>
 
-            <span class="views">({topics.viewcount} Views / {topics.post.votes} Upvotes)</span>
+            <span class="views">({topics.viewcount} Просмотров / {topics.post.votes} Голосов)</span>
             <span class="comments">
               <div class="new"></div>
-              <a href="{config.relative_path}/topic/{topics.slug}">{topics.replies} Replies <i class="fa fa-comment"></i></a>
+              <a href="{config.relative_path}/topic/{topics.slug}">{topics.replies} Ответов
+                <i class="fa fa-comment"></i></a>
             </span>
           </div>
           <div class="content newsText">{topics.post.content}</div>
@@ -49,7 +50,7 @@
 
         <div class="sectionFooter">
           <a class="btn btn-default" href="{config.relative_path}/topic/{topics.slug}">
-            <i class="fa fa-reply fa-rotate-180"></i> Continue reading...
+            <i class="fa fa-reply fa-rotate-180"></i> Продолжить чтение...
           </a>
         </div>
 
@@ -68,7 +69,7 @@
     <div class="PageNav">
       <nav>
         <!-- IF prevpage -->
-        <a href="{config.relative_path}{featuredRoute}{prevpage}" class="btn btn-default">&lt; Previous Page</a>
+        <a href="{config.relative_path}{featuredRoute}{prevpage}" class="btn btn-default">&lt; Предыдущая страница</a>
         <!-- ENDIF prevpage -->
 
         <!-- BEGIN pages -->
@@ -76,7 +77,7 @@
         <!-- END pages -->
 
         <!-- IF nextpage -->
-        <a href="{config.relative_path}{featuredRoute}{nextpage}" class="btn btn-default">Next Page &gt;</a>
+        <a href="{config.relative_path}{featuredRoute}{nextpage}" class="btn btn-default">Следующая страница &gt;</a>
         <!-- ENDIF nextpage -->
       </nav>
     </div>
